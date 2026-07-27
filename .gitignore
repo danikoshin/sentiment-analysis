@@ -1,0 +1,20 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
+.env
+
+# Архив локальных дублей (не для GitHub)
+_archive/
+
+# Производные CSV — создаются в merge_news_and_prices.ipynb
+merged_news.csv
+final_df.csv
+
+# ML-служебное
+catboost_info/
+
+# Только для себя
+COMMITS.md
+0.39.0
