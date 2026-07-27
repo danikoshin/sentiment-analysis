@@ -9,8 +9,8 @@ venv/
 _archive/
 
 # Производные CSV — создаются в merge_news_and_prices.ipynb
-merged_news.csv
-final_df.csv
+data/merged_news.csv
+data/final_df.csv
 
 # ML-служебное
 catboost_info/

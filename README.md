@@ -35,17 +35,23 @@
 sentiment-analysis/
 ├── docs/
 │   └── Проект_анализ_тональностей_новостей_эмитентов.pdf
+├── data/
+│   ├── all_news.csv
+│   ├── all_stocks.csv
+│   ├── all_merged.csv
+│   ├── news_labels.csv
+│   └── test_data.csv
 ├── models/
-│   ├── clf_0_vs_1.pkl                      # Модель классификации: этап 1 (RF)
-│   ├── clf_0_vs_minus1.pkl                 # Модель классификации: этап 2 (RF)
-│   └── vectorizer.pkl                      # Обученный TF-IDF векторизатор
-├── news_parser_edisclosure.ipynb           # Сбор новостей
-├── merge_news_and_prices.ipynb             # Расчет лог-доходности и TF-IDF
-├── classification_catboost.ipynb           # Мультиклассовая классификация
-├── two_stage_binary_classification.ipynb   # Двухэтапная бинарная классификация 
-├── regression_random_forest.ipynb          # Регрессия (TF-IDF + Random Forest)
-├── regression_catboost.ipynb               # Регрессия (TF-IDF + CatBoost)
-├── regression_rubert_embeddings.ipynb      # Регрессия на эмбеддингах ruBERT
+│   ├── clf_0_vs_1.pkl
+│   ├── clf_0_vs_minus1.pkl
+│   └── vectorizer.pkl
+├── news_parser_edisclosure.ipynb
+├── merge_news_and_prices.ipynb
+├── classification_catboost.ipynb
+├── two_stage_binary_classification.ipynb
+├── regression_random_forest.ipynb
+├── regression_catboost.ipynb
+├── regression_rubert_embeddings.ipynb
 ├── requirements.txt
 └── README.md
 ```
